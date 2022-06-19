@@ -1,4 +1,8 @@
-
+from tkinter import Frame
+from tkinter.font import names
+import cv2
+from nbformat import read
+import dlib
 
 cap = cv2.VideoCapture(0)
 
