@@ -21,10 +21,4 @@ while True:
             x = face_landmarks.part(n).x
             y = face_landmarks.part(n).y
 
-    cv2.imshow("Face Landmarks", frame)
-
-    key = cv2.waitKey(1)
-    if key == 27:
-        break
-cap.release()
-cv2.destroyAllWindows()
+  
